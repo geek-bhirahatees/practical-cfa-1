@@ -1,0 +1,122 @@
+
+.nav{
+    display: flex;
+    position: absolute;
+    top:50px;
+    left:100px;
+}
+.logo{
+    padding-right:600px;
+}
+.items{
+    text-decoration:none ;
+    margin:10px;
+    font-size:20px;
+     font-family: Barlow;
+     color:rgb(211, 211, 211);
+}
+.items:hover{
+ color: black;
+}
+
+#join{
+    padding:20px;
+    border-radius:5px;
+    background-color:rgb(	51, 58, 92);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.5s all;
+}
+#join:hover,.join-btn:hover{
+    background-color:rgb(255, 255, 255);
+    border: 2px solid rgb(	51, 58, 92);
+    color:  rgb(	51, 58, 92);
+}
+.content-container{
+   position: relative;
+   top:130px;
+   left: 100px;
+}
+.learn-more{
+    display:flex;
+    padding-right:35px;
+    padding-left: 35px;
+    width:420px;
+    font-size: 18px;
+    color:rgb(211,211,211);
+    background-color:rgb(	51, 58, 92) ;
+    border-radius:50px;
+    font-family: Barlow;
+}
+.learn{
+    padding-top:18px;
+    color:rgb(211,211,211);
+}
+.headline{
+    font-family:  Barlow ;
+    width:650px;
+    font-size:50px;
+    color:rgb(	51, 58, 92) ;
+}
+.para-container{
+    width: 700px;
+    font-size:20px;
+}
+.para{
+    color: rgb(169, 168, 168);
+    font-family: Barlow;
+}
+.body-container{
+    display: flex;
+    margin-top: 50px;
+}
+.image-container{
+    margin-top:100px;
+    margin-left:150px;
+}
+.image{
+    height: 500px;
+    width:450px;
+}
+.input-container{
+    display: inline-block;
+    align-items: center;
+}
+.input-box{
+    height:45px;
+    width:400px;
+    font-size: 20px;
+    padding-left:10px;
+}
+.join-btn{
+    color:white;
+    padding:15px;
+    margin-bottom:3px;
+    background-color: rgb(	51, 58, 92);
+    border: 2px solid rgb(	51, 58, 92);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Barlow;
+    transition: 0.5s all;
+}
+.users{
+    position: absolute;
+    left:100px;
+}
+.companies{
+    font-family: Barlow;
+    font-weight: bold;
+    padding-bottom:20px;
+    color: rgb(169, 168, 168);
+}
+.logo-container{
+    justify-content: space-around;
+}
+.com-logo{
+    cursor: pointer;
+    padding-left:5px;
+}
+.com-logo:hover{
+    opacity:3;
+}
